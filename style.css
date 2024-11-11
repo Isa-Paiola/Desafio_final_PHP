@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body, html {
+    height: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.fundo{
+    background-image: url(assets/fundo.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 127%;
+    width: 100%;
+}
+
+form{
+    background-color: rgba(211, 150, 223, 0.295);
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+    height: 550px;
+    color: rgba(29, 2, 30, 0.685);
+    box-shadow: 0px 4px 8px rgba(57, 3, 66, 0.832);
+    margin-left: -50%;
+    margin-top: -12%;
+}
+
+p{
+    display: block;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+#botao {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #d93edc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color:  rgba(231, 170, 235, 0.664);
+}
+
+h1{
+    color:rgba(29, 2, 30, 0.685);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h3{
+    color: rgba(29, 2, 30, 0.685);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table{
+    font-size: 17px;
+    margin-left: -5px;
+    width: 50px;
+    color: rgba(255, 255, 255, 0.685);
+    margin-top: -2%;
+    color:rgba(29, 2, 30, 0.685);
+    background-color: rgba(193, 68, 197, 0.441);
+    display:flexbox;
+}
